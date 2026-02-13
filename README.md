@@ -29,7 +29,7 @@ The goal is to move from descriptive HR reporting to organizational diagnostics 
 
 ### Executive Workforce Snapshot
 
-![Dashboard Overview](dashboard.png)
+![Dashboard Overview](Dashboard.png)
 
 **What data shows**
 • Attrition Rate: 33%  
@@ -71,7 +71,7 @@ High dependency on few external talent pipelines.
 
 ### Workforce Composition and DEI Context
 
-![DEI Overview](dei.png)
+![DEI Overview](DE&I.png)
 
 **Population Distribution**
 Majority White workforce, followed by Black or African American and Asian employees.

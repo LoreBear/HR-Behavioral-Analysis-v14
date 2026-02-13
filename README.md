@@ -8,19 +8,37 @@ Work and Organizational Psychology | HR Data Analytics Specialist
 
 ---
 
-## Executive Summary
+## Project Overview: The Organizational "Biopsy"
 
-Why do employees really leave? Most HR reports stop at "what" happened. This project investigates the "why" by applying psychological theory to the HR Dataset v14 (1,470 records).
+Why do employees really leave? In traditional HR, attrition is often treated as a simple turnover statistic. Through the lens of Work & Organizational Psychology, attrition is a symptom of systemic friction.
 
-By bridging raw data and organizational behavior, I transitioned from descriptive reporting to **Organizational Diagnostics**, identifying invisible risks like high-performer burnout and localized leadership toxicity.
-
-### Key Findings
-
-- **The Absence Paradox:** High performers aren't just working hard; they are exhausted. They show higher absence rates (10.5 days) than low performers (8.3 days).  
-- **Micro-Climate Toxicity:** Attrition is not systemic; it is localized. Two specific managers drive ~62% of team turnover.  
-- **The Hygiene Factor Gap:** "Unhappiness" (Culture) is a stronger driver of exits than "More Money" (Compensation).  
+This project analyzes the HR Dataset v14 (1,470 records) to move beyond descriptive reporting. The goal was to perform **Organizational Diagnostics**, identifying invisible psychological drivers such as breaches of the **Psychological Contract** and high-performer burnout that raw numbers often hide.
 
 ---
+
+## Executive Summary: Diagnostic Findings
+
+Attrition is rarely about pay alone. The data reveals a complex interplay of leadership quality, workload, and emotional exhaustion.
+
+---
+
+## Core Organizational Paradoxes
+
+### 1. The Absence Paradox (Burnout Detection)
+
+- **What the data shows:** Highest performers ("Exceeds") have higher absence rates (10.5 days) than low performers (8.3 days).  
+- **Psychologist's Take:** This is a **Leading Indicator of Burnout**. Highly engaged employees over-extend themselves, using absenteeism as a coping mechanism. They are "walking wounded"—productive but exhausted—and at high risk for sudden resignation.
+
+### 2. Micro-Climate Toxicity vs. Company Culture
+
+- **What the data shows:** Two managers drive ~62% of their teams' attrition, while the company average remains below 20%.  
+- **Psychologist's Take:** "People don't leave companies; they leave managers." Localized leadership behavior creates micro-climates that can anchor or repel talent, independent of company-wide perks.
+
+### 3. The Hygiene Factor Gap: Culture over Cash
+
+- **What the data shows:** "Unhappiness" (culture) outranks "More Money" (salary) as a reason for leaving.  
+- **Psychologist's Take:** Based on Herzberg’s Two-Factor Theory, adequate salary prevents dissatisfaction but does not drive loyalty. Cultural dissatisfaction signals a breakdown in emotional fulfillment that pay alone cannot fix.
+  
 
 ## Visual Analysis and Organizational Diagnostics
 

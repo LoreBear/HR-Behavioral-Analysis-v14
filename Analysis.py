@@ -4,43 +4,61 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-# 1. SCARICAMENTO AUTOMATICO DA KAGGLE
-# Scarica l'ultima versione del dataset rhuebner/human-resources-data-set
+# 1. AUTOMATIC DATA DOWNLOAD FROM KAGGLE
+# Downloads the latest version of the "rhuebner/human-resources-data-set"
 path = kagglehub.dataset_download("rhuebner/human-resources-data-set")
-print(f"Dataset scaricato in: {path}")
+print(f"Dataset downloaded to: {path}")
 
-# Trova il file CSV nella cartella scaricata
+# Locate the CSV file in the downloaded folder
 csv_path = os.path.join(path, "HRDataset_v14.csv")
 df = pd.read_csv(csv_path)
 
-# 2. DEFINIAMO IL PERCORSO DI USCITA (La tua cartella sul desktop)
+# 2. DEFINE OUTPUT PATH (Your project folder on the desktop)
 output_folder = r"C:\Users\Lorenzo\Desktop\hr-analytics-project\HR-Behavioral-Analysis-v14"
 
-# Impostazioni grafiche professionali
+# Ensure the directory exists
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
+# Professional graphical settings
 sns.set_theme(style="whitegrid")
 plt.rcParams['figure.dpi'] = 300
 
-# --- ANALISI A: MOTIVI DI DIMISSIONE (Psicologia del Lavoro) ---
+# --- ANALYSIS A: TERMINATION REASONS (Occupational Psychology) ---
 plt.figure(figsize=(10, 8))
+# Filter out employees who are still active
 terminated = df[df['TermReason'] != 'N/A-StillEmployed']
 sns.countplot(data=terminated, y='TermReason', order=terminated['TermReason'].value_counts().index, palette='magma')
-plt.title('Deep Dive: Perché i dipendenti lasciano l\'azienda?', fontsize=14)
+plt.title('Deep Dive: Why are employees leaving the company?', fontsize=14)
+plt.xlabel('Number of Employees')
+plt.ylabel('Reason for Termination')
 plt.tight_layout()
 plt.savefig(os.path.join(output_folder, 'hr_termination_reasons.png'))
 
-# --- ANALISI B: EQUITÀ SALARIALE PER GENERE ---
+# --- ANALYSIS B: GENDER PAY EQUITY (DEI) ---
 plt.figure(figsize=(12, 6))
 sns.boxplot(data=df, x='Department', y='Salary', hue='Sex', palette='Set2')
 plt.xticks(rotation=45)
-plt.title('Analisi Equità Salariale (DEI)', fontsize=14)
+plt.title('Salary Equity Analysis by Department & Gender', fontsize=14)
 plt.tight_layout()
 plt.savefig(os.path.join(output_folder, 'hr_gender_pay_equity.png'))
 
-# --- ANALISI C: ENGAGEMENT VS ASSENZE ---
+# --- ANALYSIS C: ENGAGEMENT VS. ABSENTEEISM (Burnout Risk) ---
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df, x='EngagementSurvey', y='Absences', hue='PerformanceScore', s=100)
-plt.title('Relazione tra Engagement e Assenteismo', fontsize=14)
+plt.title('Correlation: Engagement Score vs. Absenteeism', fontsize=14)
+plt.xlabel('Engagement Survey Score')
+plt.ylabel('Number of Absences')
+plt.legend(title='Performance Score', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 plt.savefig(os.path.join(output_folder, 'hr_engagement_vs_absences.png'))
 
-print(f"\n✅ Analisi completata! I grafici sono stati salvati in: {output_folder}")
+# 3. EXPORT CLEANED DATA FOR POWER BI
+# Cleaning strings to avoid issues in Power BI filters
+df['Sex'] = df['Sex'].str.strip()
+df['Department'] = df['Department'].str.strip()
+cleaned_csv_path = os.path.join(output_folder, "data_cleaned.csv")
+df.to_csv(cleaned_csv_path, index=False)
+
+print(f"\n✅ Analysis complete!")
+print(f"📊 Charts and cleaned CSV saved in: {output_folder}")

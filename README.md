@@ -154,7 +154,7 @@ Pay variance exists at department level, not company level.
 
 ---
 
-## 🛠 Technical Architecture
+## Technical Architecture
 
 ---
 

@@ -125,6 +125,8 @@ Validates attrition models against demographic distribution.
 Cultural dissatisfaction drives exits more than compensation alone.
 
 **Analysis:** I found that **"Unhappy"** (14 cases) is a more significant exit driver than "More Money" (11 cases). This signals a breakdown in the organizational climate. As a psychologist, I interpret this as a clear indicator that cultural intervention is more urgent than a general pay raise.
+
+
 ---
 
 ### Burnout Risk Detection
@@ -138,6 +140,7 @@ High performers record highest absence averages.
 Early burnout indicator, not disengagement.
 
 **Analysis:** The data reveals a counter-intuitive trend: top performers ("Exceeds") have higher absence rates (10.5 days) than low performers (8.3 days). This is a **Leading Indicator of Burnout**. These employees are over-extending themselves, using absences as a coping mechanism before eventual resignation.
+
 ---
 
 ### Structural Pay Equity Pattern
@@ -148,6 +151,7 @@ Early burnout indicator, not disengagement.
 Pay variance exists at department level, not company level.
 
 **Analysis:** The pay gap in the IT/IS department is strongly linked to the **0.51 correlation** between salary and `SpecialProjectsCount`. This suggests that the "gap" is likely a result of unequal access to high-visibility projects rather than direct salary bias.
+
 ---
 
 ## 🛠 Technical Architecture

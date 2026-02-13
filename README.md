@@ -1,4 +1,4 @@
-# 🧠 HR Behavioral Analytics: Decoding Turnover & Burnout
+# HR Behavioral Analytics: Decoding Turnover & Burnout
 ### Project by Lorenzo Di Salvatore  
 Work and Organizational Psychology | HR Data Analytics
 
@@ -8,7 +8,7 @@ Work and Organizational Psychology | HR Data Analytics
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 Why do employees leave?
 
@@ -17,21 +17,24 @@ This project analyzes HR Dataset v14 (1,470 employees) to identify behavioral dr
 The goal is to move from descriptive HR reporting to organizational diagnostics and risk detection.
 
 ### Key Findings
+
 • High performers show higher absence rates (10.5 vs 8.3 days)  
 • Two managers drive ~62% attrition inside their teams  
 • “Unhappy” exit reason ranks above salary-driven exits  
 
 ---
 
-## 📊 Visual Analysis and Organizational Diagnostics
+## Visual Analysis and Organizational Diagnostics
 
 ---
 
 ### Executive Workforce Snapshot
 
 ![Dashboard Overview](Dashboard.png)
+(Dashboard Overview)
 
 **What data shows**
+
 • Attrition Rate: 33%  
 • Avg Engagement: 4.09  
 • Avg Salary: 69K  
@@ -72,6 +75,7 @@ High dependency on few external talent pipelines.
 ### Workforce Composition and DEI Context
 
 ![DEI Overview](DE&I.png)
+(DEI Overview)
 
 **Population Distribution**
 Majority White workforce, followed by Black or African American and Asian employees.
@@ -112,6 +116,7 @@ Validates attrition models against demographic distribution.
 ![Termination Reasons](hr_termination_reasons.png)
 
 **What data shows**
+
 • Another Position ranks first  
 • Unhappy ranks second  
 • More Money ranks third  
@@ -202,7 +207,7 @@ Root Cause Layer
 
 ---
 
-## 🚀 Strategic Actions
+## Strategic Actions
 
 ### Leadership Intervention
 Focus on highest attrition managers first.
@@ -219,7 +224,7 @@ Review Special Project assignment distribution inside IT.
 
 ---
 
-## 📈 Business Value
+## Business Value
 
 Python identifies statistical relationships.  
 Power BI translates results into operational decisions.
@@ -232,3 +237,6 @@ Outcome: shift from reactive hiring to predictive retention strategy.
 
 Lorenzo Di Salvatore  
 HR Analytics | Organizational Psychology | People Data Strategy
+* LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
+* Portfolio: [GitHub Repositories](https://github.com/LoreBear)
+

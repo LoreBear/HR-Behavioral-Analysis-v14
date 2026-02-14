@@ -228,27 +228,40 @@ Root Cause Layer
 
 ## Strategic Actions
 
-### Leadership Intervention
-Focus on highest attrition managers first.
+### Retention: Targeted Leadership Coaching
+The Issue: Attrition is not a company-wide problem; it is concentrated under two specific managers (60%+ churn).
 
-### Burnout Early Warning
-Flag employees with:
-Performance > 4  
-Absences > 10  
+The Intervention: Instead of expensive, company-wide salary hikes, invest in Management Training & Behavioral Coaching specifically for these high-risk "micro-climates." We must treat the root cause (leadership quality), not the symptom (resignations).
 
-Treat as retention risk group.
+### Awareness: The "Burnout Shield" Protocol
+The Issue: High performers are using sick days as a coping mechanism (The Absence Paradox).
 
-### Project Allocation Audit
-Review Special Project assignment distribution inside IT.
+The Intervention: Implement an early-warning trigger in the HR system. When an employee combines a Performance Score > 4 with Absences > 10, it should automatically prompt a "Stay Interview." The goal is to redistribute workload before the resignation letter lands.
+
+### Equity: The "Project Access" Audit
+The Issue: The gender pay gap in IT is driven by access to "Special Projects" (Corr: 0.51), not direct bias.
+
+The Intervention: Standardize the assignment process for high-visibility projects. By ensuring equitable access to these career-accelerators, we close the pay gap at its source—career progression—rather than just adjusting base salaries.
 
 ---
 
-## Business Value
+## Business Impact & ROI
 
-Python identifies statistical relationships.  
-Power BI translates results into operational decisions.
+By shifting from **Reactive Reporting** (counting exits) to **Predictive Diagnostics** (identifying risk), this project delivers tangible value:
 
-Outcome: shift from reactive hiring to predictive retention strategy.
+* **Cost Avoidance:** Replacing a high-level employee costs ~1.5x their salary. By intervening in the two "Red Zone" teams (60% attrition), we protect the organization from preventable replacement costs.
+* **Productivity Protection:** Flagging the "Burnout Paradox" (High Performance + High Absence) allows us to retain our most productive assets before they crash.
+* **Strategic Credibility:** This analysis moves HR from a "gut-feeling" department to an **evidence-based partner** in the boardroom.
+  
+---
+
+## Future Scope: The Next Step
+
+While this analysis diagnoses *where* attrition happens, the next phase would focus on *predicting* it:
+
+1.  **NLP on Exit Interviews:** Applying Sentiment Analysis to open-text exit surveys to quantify the "Unhappiness" factor.
+2.  **Predictive Modeling (Machine Learning):** Building a Logistic Regression model to calculate a "Flight Risk Score" (%) for every active employee.
+3.  **ONA (Organizational Network Analysis):** Mapping communication patterns to see if isolated employees are more likely to leave.
 
 ---
 

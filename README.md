@@ -12,7 +12,7 @@ Work and Organizational Psychology | HR Data Analytics Specialist
 
 Why do employees really leave? In traditional HR, attrition is often treated as a simple turnover statistic. Through the lens of Work & Organizational Psychology, attrition is a symptom of systemic friction.
 
-This project analyzes the HR Dataset v14 (1,470 records) to move beyond descriptive reporting. The goal was to perform **Organizational Diagnostics**, identifying invisible psychological drivers such as breaches of the **Psychological Contract** and high-performer burnout that raw numbers often hide.
+This project analyzes the HR Dataset v14 (**311 employee records**) to move beyond descriptive reporting. The goal was to perform **Organizational Diagnostics**, identifying invisible psychological drivers such as breaches of the **Psychological Contract** and high-performer burnout that raw numbers often hide.
 
 ---
 
